@@ -1,0 +1,12 @@
+<view class="content">
+  <scroll-view class="scroll-content" scroll-y="{{true}}" scroll-x="{{false}}">
+    <view class="listView" wx:for-items="{{array}}">
+        <view class="itemView">
+          <!-- <text class="itemTitle" id="{{index}}" decode="{{true}}" bindtap="itemClic">
+          &nbsp;&nbsp;&nbsp;&nbsp;{{item.message}}
+          </text> -->
+        </view>
+
+    </view>
+  </scroll-view>
+</view>
